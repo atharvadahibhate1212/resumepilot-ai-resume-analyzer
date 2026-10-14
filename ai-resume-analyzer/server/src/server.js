@@ -10,6 +10,7 @@ import mammoth from 'mammoth';
 import OpenAI from 'openai';
 
 const app = express();
+app.set('trust proxy', 1);
 const PORT = process.env.PORT || 5000;
 const clientOrigins = (process.env.CLIENT_ORIGIN || 'http://localhost:5173')
   .split(',')
