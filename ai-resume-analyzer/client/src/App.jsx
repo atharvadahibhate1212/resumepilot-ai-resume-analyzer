@@ -272,8 +272,8 @@ export default function App() {
       body.append('resume', file);
       body.append('jobDescription', jobDescription);
 
-      const response = await fetch(`${API_URL}/analyze`, {
-        method: 'POST',
+const response = await fetch(`${API_URL}/api/analyze`, {
+  method: 'POST',
         body
       });
 
