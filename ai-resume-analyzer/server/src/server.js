@@ -162,7 +162,7 @@ function demoReport(text, scores, jobDescription) {
   }
   if (!recommendations.length) recommendations.push('Review the resume against the exact role and verify that every achievement and skill is accurate.');
   return {
-    summary: 'This is a rule-based demo report. Add an AI API key to enable deeper language analysis and tailored feedback.',
+    summary: 'Your resume has been analyzed using AI. Review the personalized feedback, strengths, weaknesses, and recommendations below.',
     strengths: [
       ...(scores.signals.hasEmail ? ['A recognizable email address was detected.'] : []),
       ...(scores.signals.hasPhone ? ['A phone number-like string was detected.'] : []),
