@@ -36,7 +36,7 @@ const demo = {
   fileName: 'sample-resume.pdf',
   analysisMode: 'demo',
   disclaimer:
-    'Demo report only. Scores are illustrative and are not an official ATS score or a hiring prediction.',
+    'Scores are illustrative and are not an official ATS score or a hiring prediction.',
   scores: {
     resumeScore: 78,
     atsReadabilityScore: 86,
@@ -993,7 +993,7 @@ const response = await fetch(`${API_URL}/api/analyze`, {
 
         <p>Built to make resume feedback more understandable.</p>
         <span className="footer-note">
-          Independent portfolio project · Not an official ATS
+          Independent project · Not an official ATS >Atharva Dahibhate 
         </span>
       </footer>
     </div>
